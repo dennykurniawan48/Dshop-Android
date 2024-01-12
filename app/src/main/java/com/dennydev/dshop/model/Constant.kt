@@ -1,0 +1,27 @@
+package com.dennydev.dshop.model
+
+object Constant {
+    const val GOOGLE_CLIENT_ID = "878654211397-q0i9ftvqs4ffrddt60h2i03qog5hr8js.apps.googleusercontent.com"
+    const val BASE_URL = "https://dshop-alpha.vercel.app"
+    const val BASE_API = "${BASE_URL}/api/"
+    const val LOGIN_CREDENTIALS_URL = "${BASE_API}login"
+    const val REGISTER_CREDENTIALS_URL = "${BASE_API}register"
+    const val PROFILE_URL = "${BASE_API}profile"
+    const val SLIDER_URL = "${BASE_API}slider"
+    const val LOGIN_GOOGLE_URL = "${BASE_API}login/google?token={token}&fcmtoken={fcmtoken}"
+    const val PRODUCT_URL = "${BASE_API}product?page={page}&limit={limit}&query={query}"
+    const val CATEGORY_URL = "${BASE_API}category"
+    const val DETAIL_PRODUCT_URL = "${BASE_API}product/{id}"
+    const val FAVORITE_URL = "${BASE_API}favorite"
+    const val CHECK_PRODUCT_IN_FAVORITE_URL = "${FAVORITE_URL}/{id}"
+    const val REVIEW_URL = "${BASE_API}review"
+    const val PRODUCT_REVIEW_URL = "${REVIEW_URL}?productId={id}"
+    const val ORDER_URL = "${BASE_API}order"
+    const val CHECKCART_URL = "${BASE_API}cart"
+    const val SHIPPING_URL = "${BASE_API}shipping"
+    const val COUNTRY_URL = "${BASE_API}country"
+    const val PAYMENT_SHEET_URL = "${BASE_API}paymentsheet?total={total}&orderId={orderId}"
+    const val PROFILE_ORDER_URl = "${ORDER_URL}?page={page}&limit={limit}"
+    const val LOGOUT_URL = "${BASE_API}logout"
+    const val PRODUCT_CATEGORY_URL = "${BASE_API}productbycategory?page={page}&limit={limit}&cat={cat}"
+}
